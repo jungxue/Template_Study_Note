@@ -10,6 +10,6 @@ Based on R-studio default setup
 
 Rstudio -> File -> New project -> New Directory -> Book Project Using Bookdown
 
-Good Examples
+Good Examples: 
 
 Jeffrey Arnold https://github.com/jrnold/bayesian_notes 
