@@ -1,4 +1,4 @@
-Template of my study notes
+Template of my study notes in R bookdown style
 
 Version 1.0
 
