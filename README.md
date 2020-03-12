@@ -10,6 +10,6 @@ Based on R-studio default setup
 
 Rstudio -> File -> New project -> New Directory -> Book Project Using Bookdown
 
-Good Examples: 
+A Good Example of what a study note should look like: 
 
 Jeffrey Arnold https://github.com/jrnold/bayesian_notes 
