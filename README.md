@@ -13,3 +13,8 @@ Rstudio -> File -> New project -> New Directory -> Book Project Using Bookdown
 A Good Example of what a study note should look like: 
 
 Jeffrey Arnold https://github.com/jrnold/bayesian_notes 
+
+---------------------------------------------------------------------------------------
+### To do
+
+Needs a goood way to import or type equations
