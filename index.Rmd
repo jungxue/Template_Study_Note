@@ -1,12 +1,12 @@
 --- 
 title: "Study note template"
-author: "Jun Xue"
+author: "Jung Xue"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
+bibliography: references.bib
+description: Template for study notes 学习笔记模板
 documentclass: book
-bibliography: [references.bib]
-biblio-style: apalike
 link-citations: yes
-description: "Custom template for study notes 学习笔记模板"
+site: bookdown::bookdown_site
+biblio-style: apalike
 ---
 
