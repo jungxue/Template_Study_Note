@@ -17,4 +17,6 @@ Jeffrey Arnold https://github.com/jrnold/bayesian_notes
 ---------------------------------------------------------------------------------------
 ### To do
 
-Needs a goood way to import or type equations
+- Book template
+- Note template
+- Cornell Note template
