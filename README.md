@@ -20,3 +20,4 @@ Jeffrey Arnold https://github.com/jrnold/bayesian_notes
 - Book template
 - Note template
 - Cornell Note template
+- 12 week template
