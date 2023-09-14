@@ -3,9 +3,9 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Information</a></li>
+        <li><a href="https://pkgs.rstudio.com/bookdown/articles/bookdown.html">Information</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+        <li><a href="https://github.com/rstudio/bookdown">Published with Bookdown</a></li>
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
