@@ -1,19 +1,15 @@
-Template of my study notes in R bookdown style
+Template for a 12 Lecture University Course, published by BookDdown
 
-Version 2.0
+Version 2.0 2023/09/15 
 
 
 ---------------------------------------------------------------------------------------
 ### Notes
 
-Based on R-studio default setup
-
-Rstudio -> File -> New project -> New Directory -> Book Project Using Bookdown
-
-
 
 ---------------------------------------------------------------------------------------
 ### To do
 
-- Cornell Note template
-- 12 week template
+- Cornell Note version of the template
+- 
+- Reference Example in APA
