@@ -1,5 +1,5 @@
-book_filename: "Study_note_template"
+book_filename: "Template_Study_Note"
 delete_merged_file: true
 language:
-  ui:
-    chapter_name: "Chapter "
+ui:
+chapter_name: "Lecture "

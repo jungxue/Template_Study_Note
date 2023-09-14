@@ -1,3 +1,0 @@
-# Chapter title {#ch2}
-
-## subsection

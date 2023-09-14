@@ -1,0 +1,265 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Template Study Note V2.0},
+  pdfauthor={Jung Xue},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Template Study Note V2.0}
+\author{Jung Xue}
+\date{2023-09-15}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{ch1}{%
+\chapter{Enter Chapter title here}\label{ch1}}
+
+\hypertarget{enter-subsection-1-here}{%
+\section{Enter subsection 1 here}\label{enter-subsection-1-here}}
+
+\hypertarget{enter-subsection-2-here}{%
+\section{Enter subsection 2 here}\label{enter-subsection-2-here}}
+
+\hypertarget{ch2}{%
+\chapter{Enter Chapter title here}\label{ch2}}
+
+\hypertarget{enter-subsection-1-here-1}{%
+\section{Enter subsection 1 here}\label{enter-subsection-1-here-1}}
+
+\hypertarget{enter-subsection-2-here-1}{%
+\section{Enter subsection 2 here}\label{enter-subsection-2-here-1}}
+
+\hypertarget{ch3}{%
+\chapter{Enter Chapter title here}\label{ch3}}
+
+\hypertarget{enter-subsection-1-here-2}{%
+\section{Enter subsection 1 here}\label{enter-subsection-1-here-2}}
+
+\hypertarget{enter-subsection-2-here-2}{%
+\section{Enter subsection 2 here}\label{enter-subsection-2-here-2}}
+
+\hypertarget{ch4}{%
+\chapter{Enter Chapter title here}\label{ch4}}
+
+\hypertarget{enter-subsection-1-here-3}{%
+\section{Enter subsection 1 here}\label{enter-subsection-1-here-3}}
+
+\hypertarget{enter-subsection-2-here-3}{%
+\section{Enter subsection 2 here}\label{enter-subsection-2-here-3}}
+
+\hypertarget{ch5}{%
+\chapter{Enter Chapter title here}\label{ch5}}
+
+\hypertarget{enter-subsection-1-here-4}{%
+\section{Enter subsection 1 here}\label{enter-subsection-1-here-4}}
+
+\hypertarget{enter-subsection-2-here-4}{%
+\section{Enter subsection 2 here}\label{enter-subsection-2-here-4}}
+
+\hypertarget{ch6}{%
+\chapter{Enter Chapter title here}\label{ch6}}
+
+\hypertarget{enter-subsection-1-here-5}{%
+\section{Enter subsection 1 here}\label{enter-subsection-1-here-5}}
+
+\hypertarget{enter-subsection-2-here-5}{%
+\section{Enter subsection 2 here}\label{enter-subsection-2-here-5}}
+
+\hypertarget{ch7}{%
+\chapter{Enter Chapter title here}\label{ch7}}
+
+\hypertarget{enter-subsection-1-here-6}{%
+\section{Enter subsection 1 here}\label{enter-subsection-1-here-6}}
+
+\hypertarget{enter-subsection-2-here-6}{%
+\section{Enter subsection 2 here}\label{enter-subsection-2-here-6}}
+
+\hypertarget{ch8}{%
+\chapter{Enter Chapter title here}\label{ch8}}
+
+\hypertarget{enter-subsection-1-here-7}{%
+\section{Enter subsection 1 here}\label{enter-subsection-1-here-7}}
+
+\hypertarget{enter-subsection-2-here-7}{%
+\section{Enter subsection 2 here}\label{enter-subsection-2-here-7}}
+
+\hypertarget{ch9}{%
+\chapter{Enter Chapter title here}\label{ch9}}
+
+\hypertarget{enter-subsection-1-here-8}{%
+\section{Enter subsection 1 here}\label{enter-subsection-1-here-8}}
+
+\hypertarget{enter-subsection-2-here-8}{%
+\section{Enter subsection 2 here}\label{enter-subsection-2-here-8}}
+
+\hypertarget{ch10}{%
+\chapter{Enter Chapter title here}\label{ch10}}
+
+\hypertarget{enter-subsection-1-here-9}{%
+\section{Enter subsection 1 here}\label{enter-subsection-1-here-9}}
+
+\hypertarget{enter-subsection-2-here-9}{%
+\section{Enter subsection 2 here}\label{enter-subsection-2-here-9}}
+
+\hypertarget{ch11}{%
+\chapter{Enter Chapter title here}\label{ch11}}
+
+\hypertarget{enter-subsection-1-here-10}{%
+\section{Enter subsection 1 here}\label{enter-subsection-1-here-10}}
+
+\hypertarget{enter-subsection-2-here-10}{%
+\section{Enter subsection 2 here}\label{enter-subsection-2-here-10}}
+
+\hypertarget{ch12}{%
+\chapter{Enter Chapter title here}\label{ch12}}
+
+\hypertarget{enter-subsection-1-here-11}{%
+\section{Enter subsection 1 here}\label{enter-subsection-1-here-11}}
+
+\hypertarget{enter-subsection-2-here-11}{%
+\section{Enter subsection 2 here}\label{enter-subsection-2-here-11}}
+
+\hypertarget{concluding-remarks}{%
+\chapter*{Concluding Remarks}\label{concluding-remarks}}
+\addcontentsline{toc}{chapter}{Concluding Remarks}
+
+\hypertarget{three-points-learnt}{%
+\section*{Three points learnt}\label{three-points-learnt}}
+\addcontentsline{toc}{section}{Three points learnt}
+
+Summarise three major point that you learnt from this course:
+
+\begin{itemize}
+\tightlist
+\item
+\item
+\item
+\end{itemize}
+
+\hypertarget{three-questions-to-ask}{%
+\section*{Three questions to ask}\label{three-questions-to-ask}}
+\addcontentsline{toc}{section}{Three questions to ask}
+
+Come up with three questions to ponder:
+
+\begin{itemize}
+\tightlist
+\item
+\item
+\item
+\end{itemize}
+
+\hypertarget{remarks}{%
+\section*{Remarks}\label{remarks}}
+\addcontentsline{toc}{section}{Remarks}
+
+\begin{itemize}
+\tightlist
+\item
+\end{itemize}
+
+\hypertarget{how-to-use-rbookdown}{%
+\chapter*{How to use RBookDown}\label{how-to-use-rbookdown}}
+\addcontentsline{toc}{chapter}{How to use RBookDown}
+
+Firstly, you will have to read the \href{https://bookdown.org/yihui/bookdown/}{RBookDown Bible} by YiHui Xie
+
+In essence, you write in a mixture of markdown (For basics), html (to extend on markdown) and latex language (mostly for equations) to create a simple Note.
+
+You can customise your style and theme through your own CSS.
+
+RMarkdown are mostly used to knit e-books(HTML), use TexStudio if you want a proper PDF, it is easier.
+
+\textbf{Here are some useful tips to get started}
+
+1: To add a chapter, just open a R file and save as \texttt{.RMD}. Use number 0 to 99 with a hyphen \texttt{-} to order the RMD files and maybe add a Chapter name so it is easier to select from \texttt{Files} window at bottom right of the R Studio.
+
+2: Code chunks can generate graphical outputs, To insert pictures just use \texttt{include\_graphics} instead of \texttt{\textbackslash{}includegraphics\{\}} or \texttt{!{[}{]}()}. Width can be customised.
+
+\begin{verbatim}
+knitr::include_graphics(rep('images/knit-logo.png', 3))
+\end{verbatim}
+
+3: Use 1 grave accent ` to include the in line code, use 3 grave accent to include a chunk of code.
+
+  \bibliography{references.bib}
+
+\end{document}

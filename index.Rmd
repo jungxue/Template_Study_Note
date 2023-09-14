@@ -1,5 +1,5 @@
 --- 
-title: "Study note template"
+title: "Template Study Note V2.0"
 author: "Jung Xue"
 date: "`r Sys.Date()`"
 bibliography: references.bib

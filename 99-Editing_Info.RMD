@@ -19,5 +19,5 @@ RMarkdown are mostly used to knit e-books(HTML), use TexStudio if you want a pro
 knitr::include_graphics(rep('images/knit-logo.png', 3))
 ```
 
-3: Use 1 grave accent ` to include the inline code, use 3 grave accent to include a chunk of code. 
+3: Use 1 grave accent ` to include the in line code, use 3 grave accent to include a chunk of code. 
 
